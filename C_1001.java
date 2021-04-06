@@ -1,6 +1,4 @@
-package codeup;
-
-public class CodeUp1001 {
+public class C_1001 {
     public static void main(String[] args) {
         System.out.println("hello");
     }
