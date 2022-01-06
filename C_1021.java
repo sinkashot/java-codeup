@@ -1,17 +1,21 @@
 import java.util.Scanner;
 
 /**
- * 출력 예시: 한 단어 입력 후 그대로 출력
+ * 1021 : [기초-입출력] 단어 1개 입력받아 그대로 출력하기
  */
 
 public class C_1021 {
     public static void main(String[] args) {
-        String value;
+        char[] charArray = new char[50];
+        String inputValue;
 
         Scanner sc = new Scanner(System.in);
-        value = sc.nextLine();
+        inputValue = sc.nextLine();
         sc.close();
 
-        System.out.printf("value: %s", value);
+        charArray = inputValue.toCharArray();
+        for (char c : charArray) {
+            System.out.print(c);
+        }
     }
 }
