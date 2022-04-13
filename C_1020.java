@@ -5,11 +5,12 @@ public class C_1020 {
         String privacyNumber;
         String[] splitNumber;
 
+        System.out.print("input your number: ");
         Scanner sc = new Scanner(System.in);
         privacyNumber = sc.nextLine();
         sc.close();
 
-        splitNumber = privacyNumber.split("\\-");
+        splitNumber = privacyNumber.split("-");
         System.out.println(splitNumber[0]+splitNumber[1]);
     }
 }

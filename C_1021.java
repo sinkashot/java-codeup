@@ -6,14 +6,13 @@ import java.util.Scanner;
 
 public class C_1021 {
     public static void main(String[] args) {
-        char[] charArray = new char[50];
         String inputValue;
 
         Scanner sc = new Scanner(System.in);
         inputValue = sc.nextLine();
         sc.close();
 
-        charArray = inputValue.toCharArray();
+        char[] charArray = inputValue.toCharArray();
         for (char c : charArray) {
             System.out.print(c);
         }
