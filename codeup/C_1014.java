@@ -1,9 +1,13 @@
+package codeup;
+
 import java.util.Scanner;
 
-public class C_1010 {
+public class C_1014 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(sc.nextInt());
+        String a = sc.next();
+        String b = sc.next();
+        System.out.println(b+" <> "+a);
         sc.close();
     }
 }

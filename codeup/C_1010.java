@@ -1,9 +1,11 @@
+package codeup;
+
 import java.util.Scanner;
 
-public class C_1012 {
+public class C_1010 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("%.6f",sc.nextFloat());
+        System.out.println(sc.nextInt());
         sc.close();
     }
 }

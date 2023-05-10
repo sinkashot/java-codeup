@@ -1,3 +1,5 @@
+package codeup;
+
 import java.util.Scanner;
 
 /**
