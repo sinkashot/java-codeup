@@ -1,4 +1,4 @@
-package standard.ch5;
+package standard.ch5_array;
 
 import java.util.Arrays;
 

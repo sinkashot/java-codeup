@@ -1,4 +1,4 @@
-package standard.ch5;
+package standard.ch5_array;
 
 public class ArrayEx4 {
     public static void main(String[] args) {
